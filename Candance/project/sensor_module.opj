@@ -1,0 +1,116 @@
+(ExpressProject "ADXL335"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File "F:\Cadence\adxl335.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (JACK_PIN4
+      (FullPartName "JACK_PIN4.Normal")
+      (LibraryName
+         "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (Res
+      (FullPartName "Res.Normal")
+      (LibraryName "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\BASIC.OLB")
+      (DeviceIndex "0"))
+    (Cap_Polar
+      (FullPartName "Cap_Polar.Normal")
+      (LibraryName "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\BASIC.OLB")
+      (DeviceIndex "0"))
+    (SP6205
+      (FullPartName "SP6205.Normal")
+      (LibraryName
+         "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\POWER_IC.OLB")
+      (DeviceIndex "0"))
+    (L3G4200D
+      (FullPartName "L3G4200D.Normal")
+      (LibraryName "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\SENSOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "F:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LPC1766
+      (FullPartName "LPC1766A.Normal")
+      (LibraryName "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\CPU.OLB")
+      (DeviceIndex "0"))
+    (STM32F103
+      (FullPartName "STM32F103A.Normal")
+      (LibraryName "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\CPU.OLB")
+      (DeviceIndex "0"))
+    (Test
+      (FullPartName "Test.Normal")
+      (LibraryName
+         "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\MECHAICAL.OLB")
+      (DeviceIndex "0"))
+    (Hole
+      (FullPartName "Hole.Normal")
+      (LibraryName
+         "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\MECHAICAL.OLB")
+      (DeviceIndex "0"))
+    (JACK_PIN5
+      (FullPartName "JACK_PIN5.Normal")
+      (LibraryName
+         "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (X6206
+      (FullPartName "X6206.Normal")
+      (LibraryName
+         "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\POWER_IC.OLB")
+      (DeviceIndex "0"))
+    (Diode_PACK2
+      (FullPartName "Diode_PACK2.Normal")
+      (LibraryName "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\BASIC.OLB")
+      (DeviceIndex "0"))
+    (Cap_Chip
+      (FullPartName "Cap_Chip.Normal")
+      (LibraryName "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\BASIC.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "F:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ADXL335
+      (FullPartName "ADXL335.Normal")
+      (LibraryName "F:\GIT\HARDWAREDESIGN\CANDANCE\SCHEMATICLIBRARY\SENSOR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "F:\Cadence\adxl335.dsn")
+      (Path "Design Resources" "F:\Cadence\adxl335.dsn" "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 549"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1096 50 428")
+        (Scroll "-135 0")
+        (Zoom "75")
+        (Occurrence "/"))
+      (Path "F:\CADENCE\ADXL335.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "L3G4200D"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1126 50 459")
+        (Scroll "-150 0")
+        (Zoom "75")
+        (Occurrence "/"))
+      (Path "F:\CADENCE\ADXL335.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ADXL335")))
+  (MPSSessionName "mstar")
+  (LastUsedLibraryBrowseDirectory
+     "F:\Git\HardwareDesign\Candance\SchematicLibrary"))
